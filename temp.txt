@@ -1,0 +1,6 @@
+<div class="card">
+    <img src="bike.jpg" alt="Bike Insurance">
+    <h3 class="card-title">Bike Insurance</h3>
+    <p class="card-description">Secure your bike with the best insurance plans.</p>
+    <button class="card-button">Learn More</button>
+</div>

@@ -1,0 +1,60 @@
+
+<html>
+    <style>
+        .card img {
+    width: 100%; /* Makes the image responsive */
+    height: 150px; /* Adjust height based on your card size */
+    object-fit: cover; /* Ensures images fit well without distortion */
+    border-radius: 8px; /* Adds rounded corners */
+}
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    border-radius: 10px; /* Smooth corners */
+    overflow: hidden; /* Ensures content stays within the card */
+    text-align: center; /* Center-align text and content */
+    padding: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Add hover effect */
+    background-color: #fff; /* Clean background */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slightly lift card on hover */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow */
+}
+.card-title {
+    font-size: 18px; /* Adjust size based on card dimensions */
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.card-button {
+    background-color: #007bff; /* Primary color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+    </style>
+    <div class="card">
+    <img src="bike.jpg" alt="Bike Insurance">
+    <h3 class="card-title">Bike Insurance</h3>
+    <p class="card-description">Secure your bike with the best insurance plans.</p>
+    <button class="card-button">Learn More</button>
+</div>
+</html>
